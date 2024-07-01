@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+}
+
+#caja {
+    background-color: #gray;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-tareas {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarea-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
